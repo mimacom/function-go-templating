@@ -1,19 +1,19 @@
 module github.com/crossplane-contrib/function-go-templating
 
-go 1.26.11
+go 1.27.4
 
 require (
 	dario.cat/mergo v1.0.2
 	github.com/Masterminds/sprig/v3 v3.3.0
 	github.com/alecthomas/kong v1.16.0
-	github.com/crossplane/crossplane-runtime/v2 v2.4.2
-	github.com/crossplane/crossplane/apis/v2 v2.4.2
+	github.com/crossplane/crossplane-runtime/v2 v2.4.4
+	github.com/crossplane/crossplane/apis/v2 v2.4.4
 	github.com/crossplane/function-sdk-go v0.7.1
 	github.com/google/go-cmp v0.7.0
 	google.golang.org/protobuf v1.36.12-0.20260120151049-f2248ac996af
 	gopkg.in/yaml.v3 v3.0.1
-	k8s.io/api v0.37.1
-	k8s.io/apimachinery v0.37.1
+	k8s.io/api v0.37.3
+	k8s.io/apimachinery v0.37.3
 	sigs.k8s.io/controller-tools v0.22.0
 )
 
